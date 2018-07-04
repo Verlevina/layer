@@ -343,6 +343,7 @@ body {
 }
 
 .main-content h1 {
+  font-size:30px;
   color: var(--color-red-dark);
   text-align: center;
 }
