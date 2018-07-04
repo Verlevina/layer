@@ -95,6 +95,7 @@ body {
   word-spacing: 6px;
   font-size: 30px;
   color: var(--color-white);
+  text-shadow: 5px 5px 5px black;
 }
 
 .logo p {
@@ -109,7 +110,9 @@ body {
 .header-contacts {
   display: flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .header-contacts span {
@@ -135,6 +138,7 @@ body {
   padding: 10px;
   background: var(--color-black);
   border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.8);
 }
 
 .main-menu ul {
@@ -153,10 +157,9 @@ body {
   padding: 10px;
   display: block;
   color: var(--color-white);
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   overflow: hidden;
-  text-transform: uppercase;
   text-align: center;
   z-index: 1;
 }
@@ -215,13 +218,14 @@ body {
 }
 
 .bottom-header .photo {
-  min-width: 400px;
+  min-width: 300px;
   flex-grow: 2;
   background-color: #eda26b;
   background-image: url(../img/layer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
+  background-position-x: 50%;
   color: var(--color-black);
 }
 
@@ -242,6 +246,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
+  font-size: 16px;
 }
 
 .secondary-nav a {
@@ -255,7 +260,9 @@ body {
   border-radius: 10px;
   border: 2px solid var(--color-grey);
   padding: 10px;
+  background: rgba(0,0,0,0.4);
   transition: all 0.5s;
+  box-shadow: 5px 5px 10px 0 black;
 }
 
 .secondary-nav li {
@@ -274,6 +281,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.5s;
+  box-shadow: 5px 5px 10px 0 black;
 }
 
 .criminal-case .secondary-nav-picture {
@@ -344,13 +352,20 @@ body {
 .description-text {
   padding: 10px 40px;
   letter-spacing: 1px;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  font-size: 16px;
 
 }
 
 .description-text p {
   text-indent: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  padding: 20px;
   line-height: 40px;
+  background: rgba(0,0,0,0.4);
+  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.8);
 }
 
 .main-footer {
