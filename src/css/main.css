@@ -175,10 +175,16 @@ body {
   transition: all 0.5s;
   z-index: -1;
 }
-
+.main-menu a:hover,
+.main-menu a:focus{
+  opacity:0.6;
+}
+.main-menu a:active{
+  opacity:0.4;
+}
 .main-menu a:hover::after,
 .main-menu a:focus::after {
-  width: 52%;
+  width: 50%;
 }
 
 .main-menu a::before {
@@ -195,7 +201,7 @@ body {
 
 .main-menu a:hover::before,
 .main-menu a:focus::before {
-  width: 52%;
+  width: 50%;
   transform: translateX(-100%);
 }
 
