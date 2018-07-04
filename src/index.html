@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Адвокат Иванов Иван Иванович</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,8 +12,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 
 <body>
@@ -23,11 +25,13 @@
 <div class="wrapper">
   <header class="main-header">
     <div class="top-header">
+      <a class="main-link" href="#">
     <div class="logo">
       <span>Адвокат</span>
-      Иванов Иван Иванович
+     <div class="layer-name"> Иванов Иван Иванович</div>
       <p>Подпись. Важная подпись</p>
     </div>
+        </a>
       <div class="header-contacts">
         <span>Контакты:</span>
         <a href="tel: +700000000">+7 (000) 123-45-67</a>
@@ -47,27 +51,83 @@
 <section class="bottom-header">
   <h2 class="visually-hidden">Фото уверенного в себе адвоката и дополнительное меню</h2>
   <div class="photo">
-    <p>Адвокатская практика<span class="practiceInYears"></span></p>
-
+    <p>Адвокатская практика<br>
+      <span class="practiceInYears"></span>
+    </p>
   </div>
   <ul class="secondary-nav">
-    <li><a class="criminal-case" href="#"><div>Уголовные дела</div></a></li>
-    <li><a class="civil-case" href="#"><div>Гражданские дела</div></a></li>
-    <li><a class="administrative-case" href="#"><div>Административные дела</div></a></li>
-    <li><a class="human-rights" href="#"><div>Европейский суд по правам человека</div></a></li>
+    <li class="criminal-case">
+      <a href="#">
+        <div class="secondary-nav-picture">
+
+        </div>
+      <div class="secondary-nav-description">
+        Уголовные дела
+      </div>
+      </a>
+    </li>
+    <li class="civil-case"><a href="#">
+      <div class="secondary-nav-picture">
+
+      </div>
+      <div class="secondary-nav-description">
+        Гражданские дела
+      </div>
+    </a>
+    </li>
+    <li class="administrative-case">
+      <a href="#">
+        <div class="secondary-nav-picture">
+
+        </div>
+        <div class="secondary-nav-description">
+          Административные дела
+        </div>
+      </a>
+    </li>
+    <li class="human-rights">
+      <a href="#">
+        <div class="secondary-nav-picture">
+
+        </div>
+        <div class="secondary-nav-description">
+          Европейский суд по правам человека
+        </div>
+      </a>
+    </li>
   </ul>
 </section>
   </header>
+  <main class="main-content">
+    <h1>
+      Ведение уголовных дел в Москве и московской области.
+    </h1>
+    <hr>
+    <section class="description-text">
+      <p>Опытный адвокат с большим стажем работы имеет честь предложить Вам услуги по защите Ваших интересов.
+</p>
+      <p>
+      В жизни каждого человека может наступить момент, когда помощь профессионального адвоката становится жизненно необходимой. И от того, кому он доверит решение своего вопроса, зависит очень многое, иногда даже свобода. Поэтому в любых сложных, запутанных ситуациях трудно переоценить значение квалифицированной юридической помощи.
+</p>
+      <p>
+      Каждому, кто обращается ко мне, гарантируется индивидуальный подход к проблеме доверителя, строгая конфиденциальность, высокий профессионализм, нацеленность на результат, честность, разумность и добросовестность в отстаивании прав и законных интересов доверителя.
+</p>
+      <p>
+      Помните, что обращение к профессиональному адвокату поможет избежать ошибок при выборе варианта решения Вашей проблемы и приблизит к достижению благоприятного результата!
+      </p>
+    </section>
+  </main>
 </div>
+  <footer class="main-footer">
+    <div class="container">
+    <button class="modal-button" type="button">
+      Остались вопросы?<br>
+      Напишите мне!
+    </button>
+    </div>
+
+  </footer>
 
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
-
 </html>
