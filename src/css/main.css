@@ -47,6 +47,7 @@ body {
   padding: 10px;
   max-width: 1200px;
   margin: auto;
+  box-shadow: 0 10px 300px 10px var(--color-black);
   background-image: linear-gradient(to left, transparent 0%, transparent 20%, rgba(255, 255, 255, 0.05) 50%,
   transparent 80%);
 }
@@ -334,7 +335,6 @@ body {
 
   border: 0;
   height: 2px;
-  /*background: #000;*/
   background-image: -webkit-linear-gradient(left, transparent 0%, #000 50%, transparent 100%);
   background-image: -moz-linear-gradient(left, transparent 0%, #000 50%, transparent 100%);
   background-image: -ms-linear-gradient(left, transparent 0%, #000 50%, transparent 100%);
@@ -362,8 +362,14 @@ body {
   max-width: 1200px;
   padding: 20px;
   margin: auto;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
+.about-us{
+  max-width:200px;
+}
 .modal-button {
   background: var(--color-red-dark);
   border: 2px solid var(--color-grey);
@@ -372,7 +378,13 @@ body {
   padding: 5px;
   color: var(--color-black);
 }
-
+.modal-button:hover,
+.modal-button:focus{
+  opacity:0.5;
+}
+.modal-button:active {
+  opacity: 0.2;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
