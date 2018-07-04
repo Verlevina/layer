@@ -256,6 +256,7 @@ body {
 
 .secondary-nav-description {
   margin: 10px 0;
+  max-width: 240px;
   color: var(--color-white);
   border-radius: 10px;
   border: 2px solid var(--color-grey);
@@ -267,6 +268,7 @@ body {
 
 .secondary-nav li {
   position: relative;
+  margin:10px;
 }
 
 .secondary-nav-picture {
@@ -387,11 +389,12 @@ body {
 }
 .modal-button {
   background: var(--color-red-dark);
-  border: 2px solid var(--color-grey);
+  border: 2px solid #6d0808;
   text-align: center;
   border-radius: 10px;
   padding: 5px;
   color: var(--color-black);
+  text-shadow: 3px 3px 3px black;
 }
 .modal-button:hover,
 .modal-button:focus{
