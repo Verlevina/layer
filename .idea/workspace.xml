@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b585bdc-2f45-4023-8d46-c42f38cd2f57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/normalize.css" afterPath="$PROJECT_DIR$/dist/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/dist/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
     </list>
     <ignored path="adv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +56,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="331">
                   <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5591">
+                  <caret line="363" column="9" selection-start-line="363" selection-start-column="9" selection-end-line="363" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -91,10 +96,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
+        <option value="$PROJECT_DIR$/dist/css/main.css" />
       </list>
     </option>
   </component>
@@ -311,12 +316,12 @@
       <workItem from="1530719349554" duration="9100000" />
       <workItem from="1530787837850" duration="2760000" />
       <workItem from="1530790758896" duration="1956000" />
-      <workItem from="1530793657986" duration="5256000" />
+      <workItem from="1530793657986" duration="5567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42967000" />
+    <option name="totallyTimeSpent" value="43278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -524,21 +529,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1530729183386" expanded="true" signature="898:1063" placeholder="..." />
-            <marker date="1530729183386" expanded="true" signature="992:1018" placeholder="..." />
+            <marker date="1530797495300" expanded="true" signature="898:1063" placeholder="..." />
+            <marker date="1530797495300" expanded="true" signature="992:1018" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -566,6 +563,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="146" column="12" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5591">
+          <caret line="363" column="9" selection-start-line="363" selection-start-column="9" selection-end-line="363" selection-end-column="9" />
           <folding />
         </state>
       </provider>
