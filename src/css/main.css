@@ -161,6 +161,7 @@ body {
   text-decoration: none;
   overflow: hidden;
   text-align: center;
+  transition: all 1s;
   z-index: 1;
 }
 
@@ -172,43 +173,28 @@ body {
   height: 2px;
   left: 50%;
   bottom: 2px;
-  transition: all 0.5s;
+
   z-index: -1;
 }
 .main-menu a:hover,
 .main-menu a:focus{
   opacity:0.6;
+  transform: scale(1.2);
 }
 .main-menu a:active{
   opacity:0.4;
 }
-.main-menu a:hover::after,
-.main-menu a:focus::after {
-  width: 50%;
-}
+/*.main-menu a:hover::after,*/
+/*.main-menu a:focus::after {*/
+  /*width: 100%;*/
+  /*transform:translateX(-50%);*/
+/*}*/
 
-.main-menu a::before {
-  content: '';
-  width: 0;
-  position: absolute;
-  background-color: var(--color-red);
-  height: 2px;
-  left: 50%;
-  bottom: 2px;
-  transition: all 0.5s;
-  z-index: -1;
-}
 
-.main-menu a:hover::before,
-.main-menu a:focus::before {
-  width: 50%;
-  transform: translateX(-100%);
-}
 
-.main-menu a:active::after,
-.main-menu a:active::before {
-  background-color: var(--color-red-transparent);
-}
+/*.main-menu a:active::after {*/
+  /*background-color: var(--color-red-transparent);*/
+/*}*/
 
 .main-menu a:active {
   opacity: 0.5;
