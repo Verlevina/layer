@@ -3,13 +3,31 @@ var experience = 0;
 var dateNow = new Date();
 var beginPractice = new Date(2005, 0, 1, 2, 3, 4, 567);
 experience = dateNow.getFullYear() - beginPractice.getFullYear();
-
-function declOfNum(number, titles) {
-  cases = [2, 0, 1, 1, 1, 2];
-  return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10<5)?number%10:5] ];
+function declarationOfNumbers(number, titles) {
+  if(number < 20 && number >10){
+    return titles[2];
+  }
+  switch (number%10){
+    case 1:
+          return titles[0];
+    break;
+    case 2:
+    case 3:
+    case 4:
+      return titles[1];
+      break;
+    case 5:
+    case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 0:
+      return titles[2];
+      break;
+  }
 }
 
-var numberTitle = declOfNum(experience, ['год', 'года', 'лет']);
+var numberTitle = declarationOfNumbers(experience, ['год', 'года', 'лет']);
 if (experience) {
   experienceText.textContent = experience + ' ' + numberTitle;
 } else {
